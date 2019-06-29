@@ -112,7 +112,7 @@ nav a:first-child {
     color: #fff;
     padding: 0;
     clear: both;
-    border-top: 8px solid #4aaaa5;
+  /*  border-top: 8px solid #4aaaa5; */
     color: #cccccc;
     font-size: 12px;
     text-align: center;
