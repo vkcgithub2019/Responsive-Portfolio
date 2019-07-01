@@ -229,8 +229,17 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-
+/*   using media screen to adjust according to viewport size */
 @media screen and (max-width:980px) {
+ 
+  #masthead {
+    position: relative;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 10px;
+  }
+ 
   #container {
     width:100%;
   }
@@ -247,7 +256,25 @@ img {
   width:100%;
 }
 
+.my-picture {
+  width:25%;
+}
+
+
+
 @media screen and (max-width:768px) {
+  #masthead {
+    position: relative;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 10px;
+  }
+ 
+  #masthead {
+    width:100%;
+  }
+
   #left-column {
     width:100%;
   }
@@ -256,13 +283,43 @@ img {
   width:100%;
 }
 
+img {
+  width:100%;
+}
+
+.my-picture {
+  width:46%;
+}
+
 @media screen and (max-width:640px) {
+  #masthead {
+    position: relative;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 10px;
+  }
+
+#masthead {
+    position: relative;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 10px;
+  } 
+
   #container {
     width:640px;
   }
+  img {
+    width:100%;
+  }
+
 }
   
-
+.my-picture {
+  width:80px;
+}
 
 
 
